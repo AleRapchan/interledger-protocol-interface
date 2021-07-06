@@ -193,5 +193,6 @@ https://github.com/request/request
 - [Making HTTP requests with Nodejs](https://nodejs.dev/learn/making-http-requests-with-nodejs)
 - [Manage Interledger Accounts Programmatically](https://interledger.org/developer-tools/get-started/manage-accounts/)
 - [Rafiki Wallet](https://rafiki.money/overview)
+- [Ripple Wallet](https://ripplex.io/portal/launchpad)
 - [Ways to Make HTTP Requests in NodeJS](https://www.twilio.com/blog/2017/08/http-requests-in-node-js.html)
 - [How to use an API with NodeJS](https://rapidapi.com/blog/how-to-use-an-api-with-node-js/)
