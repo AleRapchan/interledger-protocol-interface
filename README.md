@@ -6,7 +6,9 @@
 Interledger is working towards a more equitable and creative global society through an open payments network in which anyone can seamlessly earn, share, buy, sell, and trade with anyone else in the world.
 
 ## Installing Node
-In order to use Express you will first have to install Nodejs and the Node Package Manager (NPM) on your operating system.
+In order to use Request you will first have to install Nodejs and the Node Package Manager (NPM) on your operating system.
+
+Node (or more formally Node.js) is an open-source, cross-platform runtime environment that allows developers to create all kinds of server-side tools and applications in JavaScript. The runtime is intended for use outside of a browser context (i.e. running directly on a computer or server OS). As such, the environment omits browser-specific JavaScript APIs and adds support for more traditional OS APIs including HTTP and file system libraries.
 
 Installing Node and NPM on Windows and macOS is straightforward because you can just use the provided installer:
 
