@@ -197,4 +197,4 @@ Date  |  Revision  |  Description  |  Author
 - [Xpring-JS - Usage: ILP](https://github.com/xpring-eng/xpring-js)
 - [Secure Rest API in NodeJS](https://www.toptal.com/nodejs/secure-rest-api-in-nodejs)
 - [NodeJS Development Environment](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/development_environment)
-https://livebook.manning.com/book/getting-mean-with-mongo-express-angular-and-node-second-edition/chapter-7/28
+- [Consuming a REST API](https://livebook.manning.com/book/getting-mean-with-mongo-express-angular-and-node-second-edition/chapter-7/28)
