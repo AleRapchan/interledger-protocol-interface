@@ -42,19 +42,15 @@ The request module is like any of the other packages you’ve used so far and ca
 ```bash
 $ npm install --save request
 ```
-```JS
-const request = require('request');
-```
 
-Adding request and default API options to the locations.js controllers file
+Request is designed to be the simplest way possible to make http calls. It supports HTTPS and follows redirects by default.
 ```JS
 const request = require('request');
-const apiOptions = {
-  server: 'http://localhost:3000'
-};
-if (process.env.NODE_ENV === 'production') {
-  apiOptions.server = 'https://pure-temple-67771.herokuapp.com';
-}
+request('http://www.google.com', function (error, response, body) {
+  console.error('error:', error); // Print the error if one occurred
+  console.log('statusCode:', response && response.statusCode); // Print the response status code if a response was received
+  console.log('body:', body); // Print the HTML for the Google homepage.
+});
 ```
 
 Using the request module
