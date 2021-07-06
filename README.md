@@ -85,5 +85,5 @@ Date  |  Revision  |  Description  |  Author
 https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/development_environment
 https://livebook.manning.com/book/getting-mean-with-mongo-express-angular-and-node-second-edition/chapter-7/28
 https://github.com/request/request
-https://nodejs.dev/learn/making-http-requests-with-nodejs
-[Manage Interledger Accounts Programmatically](https://interledger.org/developer-tools/get-started/manage-accounts/)
+- [Making HTTP requests with Nodejs](https://nodejs.dev/learn/making-http-requests-with-nodejs)
+- [Manage Interledger Accounts Programmatically](https://interledger.org/developer-tools/get-started/manage-accounts/)
