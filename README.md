@@ -194,6 +194,7 @@ Date  |  Revision  |  Description  |  Author
 - [Making HTTP requests with Nodejs](https://nodejs.dev/learn/making-http-requests-with-nodejs)
 - [Ways to Make HTTP Requests in NodeJS](https://www.twilio.com/blog/2017/08/http-requests-in-node-js.html)
 - [How to use an API with NodeJS](https://rapidapi.com/blog/how-to-use-an-api-with-node-js/)
+- [Xpring-JS - Usage: ILP](https://github.com/xpring-eng/xpring-js)
 
 https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/development_environment
 https://livebook.manning.com/book/getting-mean-with-mongo-express-angular-and-node-second-edition/chapter-7/28
