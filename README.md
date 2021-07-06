@@ -37,7 +37,30 @@ cd myapp
 ```bash
 npm init
 ```
+3. Now install Express in the myapp directory and save it in the dependencies list of your package.json file
+The request module is like any of the other packages you’ve used so far and can be added to your project via npm. To install the latest version and add it to the package.json file, head to terminal, and type the following command:
+```bash
+$ npm install --save request
+```
+```JS
+const request = require('request');
+```
+
+Adding request and default API options to the locations.js controllers file
+```JS
+const request = require('request');
+const apiOptions = {
+  server: 'http://localhost:3000'
+};
+if (process.env.NODE_ENV === 'production') {
+  apiOptions.server = 'https://pure-temple-67771.herokuapp.com';
+}
+```
+
+Using the request module
 
 
 ## Links
 https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/development_environment
+https://livebook.manning.com/book/getting-mean-with-mongo-express-angular-and-node-second-edition/chapter-7/28
+https://github.com/request/request
