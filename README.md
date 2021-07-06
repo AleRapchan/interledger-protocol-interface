@@ -187,12 +187,13 @@ Date  |  Revision  |  Description  |  Author
 05/07/2021  |  `0.1`  |  First Draft  |  Alexandre Rapchan B. Barros
 
 ## Links
-https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/development_environment
-https://livebook.manning.com/book/getting-mean-with-mongo-express-angular-and-node-second-edition/chapter-7/28
-https://github.com/request/request
-- [Making HTTP requests with Nodejs](https://nodejs.dev/learn/making-http-requests-with-nodejs)
 - [Manage Interledger Accounts Programmatically](https://interledger.org/developer-tools/get-started/manage-accounts/)
 - [Rafiki Wallet](https://rafiki.money/overview)
 - [Ripple Wallet](https://ripplex.io/portal/launchpad)
+- [Request - Simplified HTTP client](https://github.com/request/request)
+- [Making HTTP requests with Nodejs](https://nodejs.dev/learn/making-http-requests-with-nodejs)
 - [Ways to Make HTTP Requests in NodeJS](https://www.twilio.com/blog/2017/08/http-requests-in-node-js.html)
 - [How to use an API with NodeJS](https://rapidapi.com/blog/how-to-use-an-api-with-node-js/)
+
+https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/development_environment
+https://livebook.manning.com/book/getting-mean-with-mongo-express-angular-and-node-second-edition/chapter-7/28
