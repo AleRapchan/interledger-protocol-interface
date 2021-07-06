@@ -55,6 +55,11 @@ request('http://www.google.com', function (error, response, body) {
 
 Using the request module
 
+## Run the Code
+```bash
+node index.js
+```
+
 
 ## Links
 https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/development_environment
