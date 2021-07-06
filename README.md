@@ -87,3 +87,4 @@ https://livebook.manning.com/book/getting-mean-with-mongo-express-angular-and-no
 https://github.com/request/request
 - [Making HTTP requests with Nodejs](https://nodejs.dev/learn/making-http-requests-with-nodejs)
 - [Manage Interledger Accounts Programmatically](https://interledger.org/developer-tools/get-started/manage-accounts/)
+- [Rafiki Wallet](https://rafiki.money/overview)
