@@ -196,6 +196,5 @@ Date  |  Revision  |  Description  |  Author
 - [How to use an API with NodeJS](https://rapidapi.com/blog/how-to-use-an-api-with-node-js/)
 - [Xpring-JS - Usage: ILP](https://github.com/xpring-eng/xpring-js)
 - [Secure Rest API in NodeJS](https://www.toptal.com/nodejs/secure-rest-api-in-nodejs)
-
-https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/development_environment
+- [NodeJS Development Environment](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/development_environment)
 https://livebook.manning.com/book/getting-mean-with-mongo-express-angular-and-node-second-edition/chapter-7/28
