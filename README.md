@@ -222,6 +222,7 @@ For support, email blockchain@alexandrebarros.com or join our Slack channel.
 Date  |  Revision  |  Description  |  Author
 --------  |  --------  |  --------  |  --------	
 05/07/2021  |  `0.1`  |  First Draft  |  Alexandre Rapchan B. Barros
+07/07/2021  |  `0.2`  |  Final Revision  |  Alexandre Rapchan B. Barros
 
 ## Links
 - [Manage Interledger Accounts Programmatically](https://interledger.org/developer-tools/get-started/manage-accounts/)
