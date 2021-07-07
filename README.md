@@ -1,4 +1,4 @@
-<img align="right" width="100" height="100" src="https://alexandrebarros.com/global/interledger/interledger.png?alt=interledger-protocol">
+<img align="right" src="https://alexandrebarros.com/global/interledger/interledger.png?alt=interledger-protocol">
 <br/>
 
 
