@@ -15,11 +15,11 @@ This tutorial describes how to:
 5. Pay a Friend.
 6. Get paid.
 
-## 1. Get Super Powers
+## 1. Create your wallet
 
 Create a new account at [Ripple](https://ripplex.io/). Once signed-in, navigate to your Interledger [Testnet Wallet](https://ripplex.io/portal/ilp-wallet).
 
-## 2. Make it Rain
+## 2. Fund your account
 
 The Xpring Testnet wallet has a rainmaker accounts that you can use to send yourself some faux XRP. Click the button in the wallet to grant yourself some XRP.
 
