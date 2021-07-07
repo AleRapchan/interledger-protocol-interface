@@ -138,13 +138,14 @@ cd myapp
 ```bash
 npm init
 ```
-3. Now install Express in the myapp directory and save it in the dependencies list of your package.json file
-The request module is like any of the other packages you’ve used so far and can be added to your project via npm. To install the latest version and add it to the package.json file, head to terminal, and type the following command:
+3. Now install Axios in the myapp directory and save it in the dependencies list of your package.json file.
+The axios module is like any of the other packages you’ve used so far and can be added to your project via npm. To install the latest version and add it to the package.json file, head to terminal, and type the following command:
 ```bash
 $ npm install --save axios
 ```
 
-Request is designed to be the simplest way possible to make http calls. It supports HTTPS and follows redirects by default.
+### Writing NodeJS Code
+Axios is designed to be the simplest way possible to make http calls.
 
 ## checkBalance.js
 ```JS
@@ -199,11 +200,13 @@ axios
 
 ```
 
-Using the request module
+Using the axios module
 
 ## Run the Code
 ```bash
-node index.js
+node checkBalance.js
+node payFriend.js
+
 ```
 
 ## Authors
