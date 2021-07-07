@@ -144,10 +144,10 @@ The axios module is like any of the other packages you’ve used so far and can 
 $ npm install --save axios
 ```
 
-## :technologist: Writing NodeJS Code
+# :technologist: Writing NodeJS Code
 Axios is designed to be the simplest way possible to make http calls.
 
-# checkBalance.js
+## checkBalance.js
 ```JS
 var axios = require("axios").default;
 
@@ -171,7 +171,7 @@ axios
 
 ```
 
-### payFriend.js
+## payFriend.js
 ```JS
 var axios = require("axios").default;
 
@@ -200,12 +200,14 @@ axios
 
 ```
 
-### Run the Code
+## Run the Code
 ```bash
 node checkBalance.js
 node payFriend.js
 
 ```
+
+# :mailbox: About the Project
 
 ## Authors
 
