@@ -18,7 +18,7 @@ This tutorial describes how to:
 
 ## 1. Get Super Powers
 
-Create a new account at [Ripple](https://ripplex.io/). Once signed-in, navigate to your Interledger [Testnet Wallet](https://xpring.io/portal/ilp-wallet).
+Create a new account at [Ripple](https://ripplex.io/). Once signed-in, navigate to your Interledger [Testnet Wallet](https://ripplex.io/portal/ilp-wallet).
 
 ## 2. Make it Rain
 
