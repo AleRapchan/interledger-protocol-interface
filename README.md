@@ -9,7 +9,7 @@ Interledger is working towards a more equitable and creative global society thro
 
 This tutorial describes how to:
 
-1. Create an account in at [xpring.io](https://xpring.io).
+1. Create an account in at [Ripple](https://ripplex.io/).
 2. Fund your account using the TestNet Rainmaker \(our version of a "faucet"\).
 3. Grab an API token.
 4. Check your balance.
@@ -18,7 +18,7 @@ This tutorial describes how to:
 
 ## 1. Get Super Powers
 
-Create a new account at [xpring.io](https://xpring.io). Once signed-in, navigate to your Interledger [Testnet Wallet](https://xpring.io/portal/ilp-wallet).
+Create a new account at [Ripple](https://ripplex.io/). Once signed-in, navigate to your Interledger [Testnet Wallet](https://xpring.io/portal/ilp-wallet).
 
 ## 2. Make it Rain
 
