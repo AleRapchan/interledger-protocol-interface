@@ -24,17 +24,13 @@ Create a new account at [xpring.io](https://xpring.io). Once signed-in, navigate
 
 The Xpring Testnet wallet has a rainmaker accounts that you can use to send yourself some faux XRP. Click the button in the wallet to grant yourself some XRP.
 
-{% hint style="info" %}
 The Rainmaker is available to any anyone who asks - after all, this is just a Testnet!
-{% endhint %}
 
 ## 3. Grab an API Token
 
 In the Xpring Wallet, you can get an API token by pressing the "Create a Token" button and copy the value somewhere safe. Once you close the modal window, the API token will be removed from the browser's DOM, and is otherwise unrecoverable via the Xpring Wallet.
 
-{% hint style="danger" %}
 Every time you push the "**Create a Token**" button, any previously created tokens are invalidated, so if you click this button, **anything using an older token will stop working**.
-{% endhint %}
 
 ## 4. Check Your Balance
 
@@ -47,9 +43,7 @@ curl --location
 --header 'Authorization: Bearer {auth_token}'
 ```
 
-{% hint style="warning" %}
 Be sure to replace **`{your-account-id}`**and**`{auth_token}`**with values from your Xpring Wallet account.
-{% endhint %}
 
 This request will return a JSON payload similar to this one:
 
@@ -82,9 +76,7 @@ curl --location \
 }'
 ```
 
-{% hint style="warning" %}
 Be sure to replace **`{your-account-id}`** and **`{auth_token}`**with the values returned in Step 1!
-{% endhint %}
 
 This request will return JSON similar to the JSON below, representing 1,000 XRP drops paid:
 
@@ -97,13 +89,11 @@ This request will return JSON similar to the JSON below, representing 1,000 XRP 
 }
 ```
 
-{% hint style="info" %}
 Note the meaning of the following fields:
 
 **originalAmount**: the amount that you wanted to send.  
 **amountDelivered**:  the amount your friend actually received.  
 **amountSent**: is the amount that actually got sent to your friend.
-{% endhint %}
 
 ## 6. Get Paid
 
