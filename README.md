@@ -1,7 +1,4 @@
 ![Logo](https://alexandrebarros.com/global/interledger/interledger.png?alt=interledger-protocol)
-<p align="right">
-  <img src="https://alexandrebarros.com/global/interledger/interledger.png?alt=interledger-protocol" />
-</p>
 
 # :handshake: Interledger Protocol Interface
 
