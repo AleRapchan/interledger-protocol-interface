@@ -49,14 +49,14 @@ This request will return a JSON payload similar to this one:
 
 ```javascript
 {
-    "assetCode": "XRP",
-    "assetScale": "9",
-    "accountBalance": {
-        "accountId": "caesar",
-        "netBalance": "0",
-        "clearingBalance": "0",
-        "prepaidAmount": "0"
-    }
+  "assetCode": "XRP",
+  "assetScale": 9,
+  "accountBalance": {
+    "accountId": "alerapchan",
+    "netBalance": 49997000000,
+    "clearingBalance": 49997000000,
+    "prepaidAmount": 0
+  }
 }
 ```
 
@@ -82,10 +82,10 @@ This request will return JSON similar to the JSON below, representing 1,000 XRP 
 
 ```text
 {
-    "originalAmount": "1000000",
-    "amountDelivered": "1000000",
-    "amountSent": "1000000",
-    "successfulPayment": true
+  "originalAmount": 1000000,
+  "amountDelivered": 1267,
+  "amountSent": 1000000,
+  "successfulPayment": true
 }
 ```
 
