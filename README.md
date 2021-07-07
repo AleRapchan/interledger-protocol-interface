@@ -24,17 +24,13 @@ Create a new account at [xpring.io](https://xpring.io). Once signed-in, navigate
 
 The Xpring Testnet wallet has a rainmaker accounts that you can use to send yourself some faux XRP. Click the button in the wallet to grant yourself some XRP.
 
-{% hint style="info" %}
 The Rainmaker is available to any anyone who asks - after all, this is just a Testnet!
-{% endhint %}
 
 ## 3. Grab an API Token
 
 In the Xpring Wallet, you can get an API token by pressing the "Create a Token" button and copy the value somewhere safe. Once you close the modal window, the API token will be removed from the browser's DOM, and is otherwise unrecoverable via the Xpring Wallet.
 
-{% hint style="danger" %}
 Every time you push the "**Create a Token**" button, any previously created tokens are invalidated, so if you click this button, **anything using an older token will stop working**.
-{% endhint %}
 
 ## 4. Check Your Balance
 
@@ -47,22 +43,20 @@ curl --location
 --header 'Authorization: Bearer {auth_token}'
 ```
 
-{% hint style="warning" %}
 Be sure to replace **`{your-account-id}`**and**`{auth_token}`**with values from your Xpring Wallet account.
-{% endhint %}
 
 This request will return a JSON payload similar to this one:
 
 ```javascript
 {
-    "assetCode": "XRP",
-    "assetScale": "9",
-    "accountBalance": {
-        "accountId": "caesar",
-        "netBalance": "0",
-        "clearingBalance": "0",
-        "prepaidAmount": "0"
-    }
+  "assetCode": "XRP",
+  "assetScale": 9,
+  "accountBalance": {
+    "accountId": "alerapchan",
+    "netBalance": 49997000000,
+    "clearingBalance": 49997000000,
+    "prepaidAmount": 0
+  }
 }
 ```
 
@@ -82,28 +76,24 @@ curl --location \
 }'
 ```
 
-{% hint style="warning" %}
 Be sure to replace **`{your-account-id}`** and **`{auth_token}`**with the values returned in Step 1!
-{% endhint %}
 
 This request will return JSON similar to the JSON below, representing 1,000 XRP drops paid:
 
 ```text
 {
-    "originalAmount": "1000000",
-    "amountDelivered": "1000000",
-    "amountSent": "1000000",
-    "successfulPayment": true
+  "originalAmount": 1000000,
+  "amountDelivered": 1267,
+  "amountSent": 1000000,
+  "successfulPayment": true
 }
 ```
 
-{% hint style="info" %}
 Note the meaning of the following fields:
 
 **originalAmount**: the amount that you wanted to send.  
 **amountDelivered**:  the amount your friend actually received.  
 **amountSent**: is the amount that actually got sent to your friend.
-{% endhint %}
 
 ## 6. Get Paid
 
@@ -148,27 +138,75 @@ cd myapp
 ```bash
 npm init
 ```
-3. Now install Express in the myapp directory and save it in the dependencies list of your package.json file
-The request module is like any of the other packages you’ve used so far and can be added to your project via npm. To install the latest version and add it to the package.json file, head to terminal, and type the following command:
+3. Now install Axios in the myapp directory and save it in the dependencies list of your package.json file.
+The axios module is like any of the other packages you’ve used so far and can be added to your project via npm. To install the latest version and add it to the package.json file, head to terminal, and type the following command:
 ```bash
-$ npm install --save request
+$ npm install --save axios
 ```
 
-Request is designed to be the simplest way possible to make http calls. It supports HTTPS and follows redirects by default.
+### Writing NodeJS Code
+Axios is designed to be the simplest way possible to make http calls.
+
+## checkBalance.js
 ```JS
-const request = require('request');
-request('http://www.google.com', function (error, response, body) {
-  console.error('error:', error); // Print the error if one occurred
-  console.log('statusCode:', response && response.statusCode); // Print the response status code if a response was received
-  console.log('body:', body); // Print the HTML for the Google homepage.
-});
+var axios = require("axios").default;
+
+var options = {
+  method: "GET",
+  url: "https://ripplex.io/portal/ilp/hermes/accounts/alerapchan/balance",
+  headers: {
+    Accept: "application/json",
+    Authorization: "Bearer ODczZGRjZjAtODRkMC00NzRiLTlkN2QtYjRmOTc3ZmY4NWVj",
+  },
+};
+
+axios
+  .request(options)
+  .then(function (response) {
+    console.log(response.data);
+  })
+  .catch(function (error) {
+    console.error(error);
+  });
+
 ```
 
-Using the request module
+## payFriend
+```JS
+var axios = require("axios").default;
+
+var options = {
+  method: "POST",
+  url: "https://ripplex.io/portal/ilp/hermes/accounts/alerapchan/pay",
+  headers: {
+    "Content-Type": "application/json",
+    Accept: "application/json",
+    Authorization: "Bearer ODczZGRjZjAtODRkMC00NzRiLTlkN2QtYjRmOTc3ZmY4NWVj",
+  },
+  data: {
+    amount: "1000000",
+    destinationPaymentPointer: "$rafiki.money/p/contato@alexandrebarros.com",
+  },
+};
+
+axios
+  .request(options)
+  .then(function (response) {
+    console.log(response.data);
+  })
+  .catch(function (error) {
+    console.error(error);
+  });
+
+```
+
+Using the axios module
 
 ## Run the Code
 ```bash
-node index.js
+node checkBalance.js
+node payFriend.js
+
 ```
 
 ## Authors
