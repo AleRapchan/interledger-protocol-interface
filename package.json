@@ -1,0 +1,22 @@
+{
+  "name": "interledger-protocol-interface",
+  "version": "1.0.0",
+  "description": "Interledger is working towards a more equitable and creative global society through an open payments network in which anyone can seamlessly earn, share, buy, sell, and trade with anyone else in the world.",
+  "main": "checkBalance.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleRapchan/interledger-protocol-interface.git"
+  },
+  "keywords": [
+    "interledger"
+  ],
+  "author": "Alexandre Rapchan B Barros",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AleRapchan/interledger-protocol-interface/issues"
+  },
+  "homepage": "https://github.com/AleRapchan/interledger-protocol-interface#readme"
+}
