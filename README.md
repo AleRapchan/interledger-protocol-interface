@@ -1,7 +1,7 @@
 ![Logo](https://alexandrebarros.com/global/interledger/interledger.png?alt=interledger-protocol)
 
 
-# Interledger Protocol Interface
+# :handshake: Interledger Protocol Interface
 
 Interledger is working towards a more equitable and creative global society through an open payments network in which anyone can seamlessly earn, share, buy, sell, and trade with anyone else in the world.
 
@@ -99,9 +99,9 @@ Note the meaning of the following fields:
 
 Try sending money back to your Xpring wallet using the PaymentPointer in the Xpring wallet UI. Then, check your balance, either programmatically or in the UI, to see that the money has arrived in your account. 
 
-# Requirements
+# :rocket: Requirements
 ## Installing Node
-In order to use Request you will first have to install Nodejs and the Node Package Manager (NPM) on your operating system.
+In order to use Axios you will first have to install Nodejs and the Node Package Manager (NPM) on your operating system.
 
 Node (or more formally Node.js) is an open-source, cross-platform runtime environment that allows developers to create all kinds of server-side tools and applications in JavaScript. The runtime is intended for use outside of a browser context (i.e. running directly on a computer or server OS). As such, the environment omits browser-specific JavaScript APIs and adds support for more traditional OS APIs including HTTP and file system libraries.
 
@@ -122,7 +122,7 @@ The Nodejs package manager NPM should also have been installed, and can be teste
 $ npm -v
 ```
 
-## Using NPM
+### Using NPM
 Next to Node itself, NPM is the most important tool for working with Node applications. NPM is used to fetch any packages (JavaScript libraries) that an application needs for development, testing, and/or production, and may also be used to run tests and tools used in the development process. 
 You can manually use NPM to separately fetch each needed package. Typically we instead manage dependencies using a plain-text definition file named package.json.
 
@@ -171,7 +171,7 @@ axios
 
 ```
 
-# payFriend
+### payFriend.js
 ```JS
 var axios = require("axios").default;
 
@@ -200,9 +200,7 @@ axios
 
 ```
 
-Using the axios module
-
-# Run the Code
+### Run the Code
 ```bash
 node checkBalance.js
 node payFriend.js
